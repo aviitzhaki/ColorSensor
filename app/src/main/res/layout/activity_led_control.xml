@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.led.led.ledControl">
+
+
+    <Button
+        android:id="@+id/led_on_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:text="LED ON" />
+
+    <Button
+        android:id="@+id/led_off_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/led_on_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:text="LED OFF" />
+
+    <TextView
+            android:id="@+id/red_value"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="10dp"
+            android:text="Red Value"
+            android:gravity="center"/>
+    <TextView
+            android:id="@+id/red_value_window"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_toEndOf="@id/red_value"
+            android:layout_marginLeft="00dp"
+            android:layout_marginTop="130dp"
+            android:ems="3"
+            android:inputType="number"
+            android:outlineSpotShadowColor="#090808"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp" />
+    <TextView
+            android:id="@+id/green_value"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="10dp"
+            android:text="Green Value"
+            android:gravity="center"/>
+    <TextView
+            android:id="@+id/green_value_window"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_toEndOf="@id/green_value"
+            android:layout_marginLeft="00dp"
+            android:layout_below="@id/red_value_window"
+            android:ems="3"
+            android:inputType="number"
+            android:outlineSpotShadowColor="#090808"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp" />
+    <TextView
+            android:id="@+id/blue_value"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="10dp"
+            android:text="Blue Value"
+            android:gravity="center"/>
+    <TextView
+            android:id="@+id/blue_value_window"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_toEndOf="@id/green_value"
+            android:layout_marginLeft="00dp"
+            android:layout_below="@id/green_value_window"
+            android:ems="3"
+            android:inputType="number"
+            android:outlineSpotShadowColor="#090808"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp" />
+    <TextView
+            android:id="@+id/intensity_value"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="10dp"
+            android:text="Intensity Value"
+            android:gravity="center"/>
+    <TextView
+            android:id="@+id/intensity_value_window"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_toEndOf="@id/intensity_value"
+            android:layout_marginLeft="00dp"
+            android:layout_below="@id/blue_value_window"
+            android:ems="3"
+            android:inputType="number"
+            android:outlineSpotShadowColor="#090808"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp" />
+
+    <Button
+            android:id="@+id/percent_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="330dp"
+            android:text="2%" />
+
+    <Button
+            android:id="@+id/percent_button_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/percent_button_2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="100dp"
+            android:text="20%" />
+    <Button
+            android:id="@+id/percent_button_100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/percent_button_20"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="200dp"
+            android:text="100%" />
+
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="Disconnect" />
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ColoSensor</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_led_control">ColorSensorTest</string>
+	<string name="todo">TODO</string>
+	<string name="press_mic_button_text">Press Mic\n Button</string>
+	<string name="speech_prompt">Say something&#8230;</string>
+	<string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+</resources>
